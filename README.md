@@ -2,13 +2,13 @@
 
 A simple rails generator to help generate new Stimulus controllers.
 
-Before anything ensure you have stimulus by running
+Before anything, ensure you have stimulus by running
 
 ```
 rails webpacker:install:stimulus
 ```
 
-to download, go to your rails project root and run
+Once you have stimulus in your project, go to your rails project root and run
 
 ```
 mkdir lib/generators && cd $_
