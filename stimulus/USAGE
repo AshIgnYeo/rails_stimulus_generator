@@ -1,0 +1,8 @@
+Description:
+    Generate a new stimulus controller
+
+Example:
+    bin/rails generate stimulus name
+
+    This will create:
+        app/javascript/controllers/name_controller.js
