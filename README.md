@@ -1,10 +1,20 @@
-#Rails Stimulus Generator
+# Rails Stimulus Generator
+
 A simple rails generator to help generate new Stimulus controllers.
+
+Before anything ensure you have stimulus by running
+
+```
+rails webpacker:install:stimulus
+```
 
 to download, go to your rails project root and run
 
 ```
-curl
+mkdir lib/generators && cd $_
+curl -L -O https://github.com/AshIgnYeo/rails_stimulus_generator/raw/master/stimulus.zip
+unzip -q stimulus.zip && rm -rf stimulus.zip
+cd ../..
 ```
 
 then you can generate new controllers by running
