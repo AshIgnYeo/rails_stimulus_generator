@@ -13,7 +13,7 @@ Once you have stimulus in your project, go to your rails project root and run
 ```
 mkdir lib/generators && cd $_
 curl -L -O https://github.com/AshIgnYeo/rails_stimulus_generator/raw/master/stimulus.zip
-unzip -q stimulus.zip && rm -rf stimulus.zip __MACOSX
+unzip -q stimulus.zip && rm -rf stimulus.zip
 cd ../..
 ```
 
